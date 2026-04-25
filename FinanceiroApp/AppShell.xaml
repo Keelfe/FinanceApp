@@ -3,12 +3,12 @@
     x:Class="FinanceiroApp.AppShell"
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    xmlns:local="clr-namespace:FinanceiroApp"
+    xmlns:views="clr-namespace:FinanceiroApp.Views"
     Shell.FlyoutBehavior="Disabled">
 
     <ShellContent
-        Title="Home"
-        ContentTemplate="{DataTemplate local:MainPage}"
-        Route="MainPage" />
+        Title="Gastos"
+        ContentTemplate="{DataTemplate views:LancamentoPage}"
+        Route="LancamentoPage" />
 
 </Shell>

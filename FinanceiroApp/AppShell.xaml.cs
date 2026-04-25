@@ -1,4 +1,4 @@
-﻿namespace FinanceiroApp;
+namespace FinanceiroApp;
 
 public partial class AppShell : Shell
 {
